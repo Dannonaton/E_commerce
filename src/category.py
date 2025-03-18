@@ -11,4 +11,3 @@ class Category:
         self.products = products
         self.product_count += len(products)
         Category.category_count += 1
-
