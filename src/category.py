@@ -26,7 +26,7 @@ class Category:
             raise TypeError
 
     @property
-    def get_product_list(self) -> str:
+    def products(self) -> str:
         product_list = ""
         for product in self.__products:
             product_list += f"{product.name}, {product.price} руб. Остаток: {product.quantity} шт. \n "
